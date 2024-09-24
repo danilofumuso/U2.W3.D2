@@ -25,5 +25,7 @@ saveButton.addEventListener("click", () => {
 
 deleteButton.addEventListener("click", () => {
   localStorage.removeItem("name");
-  li.remove(); //non riesco a rimuovere il li!
 });
+
+//Prima di creare il nuovo elemento faccio un check tipo if(document.querySelector("li"))
+//se true faccio il .remove
